@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/premierleague-scorers-ranking/static/css/main.b9274df2.css",
+    "main.js": "/premierleague-scorers-ranking/static/js/main.57e2855d.js",
+    "static/js/787.a500c9ca.chunk.js": "/premierleague-scorers-ranking/static/js/787.a500c9ca.chunk.js",
+    "static/media/logo.png": "/premierleague-scorers-ranking/static/media/logo.38cc64d33b083f19d8c6.png",
+    "index.html": "/premierleague-scorers-ranking/index.html",
+    "main.b9274df2.css.map": "/premierleague-scorers-ranking/static/css/main.b9274df2.css.map",
+    "main.57e2855d.js.map": "/premierleague-scorers-ranking/static/js/main.57e2855d.js.map",
+    "787.a500c9ca.chunk.js.map": "/premierleague-scorers-ranking/static/js/787.a500c9ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9274df2.css",
+    "static/js/main.57e2855d.js"
+  ]
+}
