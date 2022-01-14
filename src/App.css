@@ -1,20 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+:root {
+  --mainColor: #3f1052;
+}
+
+body {
+  background-color: var(--mainColor);
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,17 +28,107 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.table-players {
+  width: 500px;
+  transform: scale(1.5);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.soccer-row {
+  display: flex;
+  position: relative;
+  background-color: #fff;
+  align-items: center;
+  align-content: center;
+  color: black;
+  justify-content: space-evenly;
+  padding: 10px;
+  border-radius: 4px;
+  min-width: 250px;
+  height: 42px;
+  margin: 10px;
+  opacity: 0;
+  transition: 0.4s;
+  animation: fadeIn 2s forwards;
+}
+
+.rank {
+  color: #3f1052;
+}
+
+.soccer-row:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.player-name {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  display: flex;
+  justify-content: flex-start;
+  width: 120px;
+  margin-left: 10px;
+}
+
+.player-img {
+  border-radius: 50%;
+  width: 40px;
+  background-color: #fff;
+}
+.player-team {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.player-nation-team {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.white-logo {
+  width: 150px;
+}
+
+.Loading {
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  display: flex;
+  transition: 0.4s;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Loading img {
+  width: 250px;
+  height: 250px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 800px) {
+
+  .App-header{
+    justify-content: flex-start;
+    overflow: hidden;
+
+  }
+  .table-players {
+    width: 500px;
+    transform: scale(0.8);
   }
 }

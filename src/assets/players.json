@@ -1,0 +1,32 @@
+[
+    {
+        "player-name" : "Mohamed Salah",
+        "team" : "Liverpool",
+        "nation-team" : "Egypt",
+        "player-photo" : "https://cdn.filestackcontent.com/ax0BmYFyT1OmvKNhsNRm",
+        "team-url" : "https://resources.premierleague.com/premierleague/badges/25/t14.png",
+        "nation-url" : "https://icons.iconarchive.com/icons/wikipedia/flags/1024/EG-Egypt-Flag-icon.png",
+        "goals" : "16",
+        "rank" : "1"
+    },
+    {
+        "player-name" : "Diogo Jota",
+        "team" : "Liverpool",
+        "nation-team" : "Portugal",
+        "player-photo" : "https://resources.premierleague.com/premierleague/photos/players/250x250/p194634.png",
+        "team-url" : "https://resources.premierleague.com/premierleague/badges/25/t14.png",
+        "nation-url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/1200px-Flag_of_Portugal.svg.png",
+        "goals" : "10",
+        "rank" : "2"
+    },
+    {
+        "player-name" : "Jamie Vardy",
+        "team" : "ListerCity",
+        "nation-team" : "England",
+        "player-photo" : "https://cdn.arageek.com/magazine/2018/04/p101668.png",
+        "team-url" : "https://resources.premierleague.com/premierleague/badges/25/t13.png",
+        "nation-url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/2560px-Flag_of_England.svg.png",
+        "goals" : "9",
+        "rank" : "3"
+    }
+]
